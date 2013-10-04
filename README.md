@@ -3,6 +3,12 @@ StyleCop.UnitTesting
 
 NUnit helperclass to simplify unit testing of custom StyleCop rules
 
+##Installation
+
+https://www.nuget.org/packages/StyleCop.NUnit/
+
+    Install-Package StyleCop.NUnit
+
 ##Usage
 
 Inherit your TestFixture class from the StyleCopNUnit.StyleCopTest to get access to the helper methods used below.
