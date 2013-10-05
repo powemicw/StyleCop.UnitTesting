@@ -21,7 +21,7 @@ Inherit your TestFixture class from the StyleCopNUnit.StyleCopTest to get access
     public class SampleTest : StyleCopTest
     {
         [Test]
-        public void AvoidUsingFieldHasValue()
+        public void TestMethod()
         {
             this.AddSourceCode("Invalid.cs");
 
