@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.IO;
+    using System.Linq;
 
     using NUnit.Framework;
 
@@ -49,8 +50,21 @@
         public void AddSourceCode(string fileName)
         {
             fileName = Path.GetFullPath(fileName);
+            if (!File.Exists(fileName))
+            {
+                throw new FileNotFoundException("SourceCode not found: " + fileName);
+            }
+
             this.Console.Core.Environment.AddSourceCode(this.project, fileName, null);
         }
+
+        public void AddSourceCode(string fileName, string sourceCode)
+        {
+            File.WriteAllText(Path.GetFullPath(fileName), sourceCode);
+
+            this.AddSourceCode(fileName);
+        }
+
 
         public void StartAnalysis()
         {

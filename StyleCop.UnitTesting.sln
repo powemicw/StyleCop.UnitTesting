@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{395FEE
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRules.Sample", "CustomRules.Sample\CustomRules.Sample.csproj", "{7E809444-07E3-4774-A02F-21F1757F4B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRules.Test", "CustomRules.Test\CustomRules.Test.csproj", "{25D7A9B4-2D18-4FCF-B637-83751F4AB6B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{9944FD5E-7FF2-4AE5-AB6E-0EFD38FDB04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9944FD5E-7FF2-4AE5-AB6E-0EFD38FDB04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9944FD5E-7FF2-4AE5-AB6E-0EFD38FDB04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E809444-07E3-4774-A02F-21F1757F4B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E809444-07E3-4774-A02F-21F1757F4B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E809444-07E3-4774-A02F-21F1757F4B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E809444-07E3-4774-A02F-21F1757F4B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D7A9B4-2D18-4FCF-B637-83751F4AB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D7A9B4-2D18-4FCF-B637-83751F4AB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D7A9B4-2D18-4FCF-B637-83751F4AB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D7A9B4-2D18-4FCF-B637-83751F4AB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
