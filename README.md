@@ -1,6 +1,8 @@
 StyleCop.UnitTesting
 ====================
 
+**this is a test**
+
 NUnit helperclass to simplify unit testing of custom StyleCop rules
 
 ##Installation
